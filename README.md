@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/brand/app-icon.svg" width="128" height="128" alt="VSA Morse Code Trainer icon: an old telegraph key on a rusted iron plate">
+  <img src="assets/brand/app-icon.svg" width="128" height="128" alt="VSA Morse Code Trainer icon: a brass straight telegraph key on a mahogany base, set in a brass badge">
 </p>
 
 # VSA Morse Code Trainer
@@ -8,7 +8,7 @@
 
 A free, offline Windows desktop application that teaches the full details of Morse code — not just a translator. A student can start with zero knowledge and finish able to copy Morse by ear and send it accurately by key. A teacher can follow a whole class offline.
 
-The look and feel follow an old telegraph office: rusted iron, burnished brass, walnut and aged telegram paper, with the straight telegraph key at its heart.
+The look and feel follow an old telegraph office: a polished brass straight key on a mahogany base, aged telegram paper and brass nameplates.
 
 > **Status:** under active development (version 0.5.1). The first public release will be announced on the Vidyasagar Academy website.
 

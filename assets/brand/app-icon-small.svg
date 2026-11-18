@@ -1,15 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="256" height="256">
-  <!-- Simplified 16-32 px variant: rusted plate with the telegraph key -->
-  <rect x="0.5" y="0.5" width="31" height="31" rx="6.5" fill="#8a4f24"/>
-  <rect x="2" y="2" width="28" height="28" rx="5" fill="#3a2212"/>
-  <rect x="4" y="22" width="24" height="5" rx="1.5" fill="#5a3a24"/>
-  <rect x="5.5" y="20" width="21" height="2.5" rx="1" fill="#c7963e"/>
-  <rect x="10" y="15" width="3" height="6" fill="#c7963e"/>
-  <path d="M6 13.5 L25 15.5 L25 17.5 L6 15.5 Z" fill="#d9ad5c"/>
-  <ellipse cx="24.5" cy="13.5" rx="4.5" ry="3" fill="#0e0805" stroke="#e0b866" stroke-width="0.9"/>
-  <ellipse cx="23.5" cy="12.6" rx="1.6" ry="0.8" fill="#7d6a5e"/>
-  <circle cx="8" cy="7" r="1.5" fill="#d9ad5c"/>
-  <circle cx="12" cy="7" r="1.5" fill="#d9ad5c"/>
-  <circle cx="16" cy="7" r="1.5" fill="#d9ad5c"/>
-  <rect x="19" y="5.5" width="6" height="3" rx="1.5" fill="#d9ad5c"/>
+  <!-- Simplified 16-32 px variant: brass telegraph key on a mahogany base -->
+  <circle cx="16" cy="16" r="15.5" fill="#d4a640"/>
+  <circle cx="16" cy="16" r="14" fill="#2a170c"/>
+  <g transform="translate(16 17) scale(0.92) translate(-16 -19.5)">
+  <path d="M1.5 22 L22 25.5 L30.5 21 L30.5 24 Q30.5 25.5 29 26.5 L23.5 29.5 Q22.5 30 21.5 29.8 L2.5 26.5 Q1.5 26.2 1.5 25 Z" fill="#5a240d"/>
+  <path d="M1.5 22 Q1.5 20.8 3 20.3 L8.5 17.5 L30 20.2 Q31 20.5 30.5 21 L22 25.5 L2.5 23 Q1.5 22.8 1.5 22 Z" fill="#a8502a"/>
+  <rect x="5" y="13.5" width="2.2" height="7" fill="#c9982f"/>
+  <rect x="4.2" y="11.5" width="3.8" height="2.6" rx="0.6" fill="#e9c25d"/>
+  <path d="M5 16 L18 17.2 Q22 17.4 24.5 14.5 L26 13 L27.5 14.3 L26 15.8 Q22.5 19.6 18 19.6 L5 18.4 Z" fill="#e2b34a" stroke="#6b4710" stroke-width="0.6"/>
+  <rect x="11" y="13" width="5" height="2" fill="#d6a640"/>
+  <ellipse cx="27" cy="10.5" rx="4.5" ry="2.4" fill="#141212"/>
+  <ellipse cx="27" cy="11.6" rx="4.5" ry="1.4" fill="#050404"/>
+  <ellipse cx="25.6" cy="9.8" rx="1.6" ry="0.6" fill="#8d8580"/>
+  <rect x="26.2" y="12" width="1.4" height="2.4" fill="#c9982f"/>
+  </g>
 </svg>

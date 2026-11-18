@@ -1,94 +1,98 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- VSA Morse Code Trainer: an original drawing of a brass straight telegraph key on a mahogany base -->
   <defs>
-    <!-- Weathered iron plate -->
-    <linearGradient id="iron" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#4f2e1a"/>
-      <stop offset="0.55" stop-color="#36200f"/>
-      <stop offset="1" stop-color="#1e1108"/>
-    </linearGradient>
-    <!-- Tarnished brass -->
     <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#e6c27a"/>
-      <stop offset="0.5" stop-color="#b8862f"/>
-      <stop offset="1" stop-color="#6e4a14"/>
+      <stop offset="0" stop-color="#fff1b8"/>
+      <stop offset="0.25" stop-color="#e9c25d"/>
+      <stop offset="0.6" stop-color="#b8862a"/>
+      <stop offset="1" stop-color="#6b4710"/>
     </linearGradient>
-    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#b9763a"/>
-      <stop offset="0.5" stop-color="#7a4520"/>
-      <stop offset="1" stop-color="#3c1f0d"/>
+    <linearGradient id="brassSide" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7a5212"/>
+      <stop offset="0.35" stop-color="#f3d27a"/>
+      <stop offset="0.7" stop-color="#c39233"/>
+      <stop offset="1" stop-color="#6b4710"/>
     </linearGradient>
-    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#5a3a24"/>
-      <stop offset="1" stop-color="#2b1a0f"/>
+    <linearGradient id="woodTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c0673a"/>
+      <stop offset="0.5" stop-color="#9c4a24"/>
+      <stop offset="1" stop-color="#7a3518"/>
     </linearGradient>
-    <radialGradient id="knob" cx="0.38" cy="0.3" r="0.75">
-      <stop offset="0" stop-color="#5b4a40"/>
-      <stop offset="0.6" stop-color="#1d1410"/>
-      <stop offset="1" stop-color="#0b0705"/>
+    <linearGradient id="woodFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7d3517"/>
+      <stop offset="1" stop-color="#4a1d0a"/>
+    </linearGradient>
+    <radialGradient id="ebony" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#6d6460"/>
+      <stop offset="0.45" stop-color="#22201f"/>
+      <stop offset="1" stop-color="#080707"/>
     </radialGradient>
-    <!-- Rust mottling -->
-    <filter id="rust" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="5" seed="11" result="n"/>
-      <feColorMatrix in="n" type="matrix"
-        values="0 0 0 0 0.55  0 0 0 0 0.24  0 0 0 0 0.08  0 0 0 1.3 -0.6" result="spots"/>
-      <feComposite in="spots" in2="SourceGraphic" operator="in" result="clipped"/>
-      <feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="clipped"/></feMerge>
+    <pattern id="knurl" width="3" height="6" patternUnits="userSpaceOnUse">
+      <rect width="3" height="6" fill="#c9982f"/>
+      <rect width="1.2" height="6" fill="#6b4710"/>
+    </pattern>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feGaussianBlur stdDeviation="5"/>
     </filter>
-    <filter id="grain" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="g"/>
-      <feColorMatrix in="g" type="matrix"
-        values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.35 -0.05" result="dark"/>
-      <feComposite in="dark" in2="SourceGraphic" operator="in" result="d"/>
-      <feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="d"/></feMerge>
-    </filter>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
-      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#000" flood-opacity="0.55"/>
-    </filter>
-  </defs>
+      <radialGradient id="badge" cx="0.5" cy="0.4" r="0.65">
+      <stop offset="0" stop-color="#3b2416"/>
+      <stop offset="1" stop-color="#170c06"/>
+    </radialGradient>
+    <linearGradient id="rimB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff1b8"/>
+      <stop offset="0.4" stop-color="#d4a640"/>
+      <stop offset="1" stop-color="#6b4710"/>
+    </linearGradient>
+</defs>
 
-  <!-- Rusted iron tile with a worn copper rim -->
-  <rect x="6" y="6" width="244" height="244" rx="46" fill="url(#rim)" filter="url(#grain)"/>
-  <rect x="16" y="16" width="224" height="224" rx="38" fill="url(#iron)" filter="url(#rust)"/>
-  <!-- Corner rivets -->
-  <g fill="#c79a52" stroke="#3a210f" stroke-width="2">
-    <circle cx="38" cy="38" r="6"/><circle cx="218" cy="38" r="6"/>
-    <circle cx="38" cy="218" r="6"/><circle cx="218" cy="218" r="6"/>
+  <circle cx="128" cy="128" r="122" fill="url(#rimB)"/>
+  <circle cx="128" cy="128" r="111" fill="url(#badge)"/>
+  <g transform="translate(128 136) scale(0.86) translate(-129 -146)">
+  <!-- Soft floor shadow -->
+  <ellipse cx="128" cy="214" rx="112" ry="14" fill="#000" opacity="0.35" filter="url(#shadow)"/>
+
+  <!-- Mahogany base: front face, then top face -->
+  <path d="M14 168 L206 196 L242 168 L242 184 Q242 192 234 198 L210 214 Q204 218 196 217 L22 192 Q14 190 14 182 Z" fill="url(#woodFront)"/>
+  <path d="M14 168 Q14 160 24 157 L64 132 Q70 128 78 129 L234 152 Q244 154 242 164 L242 168 L206 196 Q202 199 194 198 L22 174 Q14 172 14 168 Z" fill="url(#woodTop)"/>
+  <!-- Wood grain -->
+  <g stroke="#6e2b10" stroke-width="1.2" fill="none" opacity="0.45">
+    <path d="M40 158 Q110 150 220 166"/>
+    <path d="M32 165 Q120 160 200 184"/>
+    <path d="M70 143 Q140 140 226 158"/>
   </g>
+  <!-- Front edge highlight -->
+  <path d="M22 174 L194 198" stroke="#d98a58" stroke-width="2" opacity="0.6"/>
 
-  <!-- "VSA" in Morse, punched into the plate: ...- ... .- -->
-  <g fill="#d9ad5c" opacity="0.95">
-    <circle cx="55.0" cy="66" r="4.5"/>
-    <circle cx="68.0" cy="66" r="4.5"/>
-    <circle cx="81.0" cy="66" r="4.5"/>
-    <rect x="89.5" y="61.5" width="20" height="9" rx="4.5"/>
-    <circle cx="128.0" cy="66" r="4.5"/>
-    <circle cx="141.0" cy="66" r="4.5"/>
-    <circle cx="154.0" cy="66" r="4.5"/>
-    <circle cx="177.0" cy="66" r="4.5"/>
-    <rect x="185.5" y="61.5" width="20" height="9" rx="4.5"/>
-  </g>
+  <!-- Brass bed plate -->
+  <path d="M48 160 L170 176 L196 160 L80 146 Z" fill="url(#brass)" stroke="#5e3d0c" stroke-width="1.2"/>
+  <path d="M48 160 L170 176 L170 181 L48 165 Z" fill="#7a5212"/>
+  <path d="M170 176 L196 160 L196 165 L170 181 Z" fill="#5e3d0c"/>
 
-  <!-- Old straight telegraph key, side view -->
-  <g filter="url(#shadow)">
-    <!-- Wooden base -->
-    <rect x="34" y="178" width="188" height="30" rx="7" fill="url(#wood)" filter="url(#grain)"/>
-    <!-- Brass bed plate -->
-    <rect x="46" y="168" width="164" height="14" rx="4" fill="url(#brass)" filter="url(#grain)"/>
-    <!-- Trunnion posts and pivot -->
-    <rect x="76" y="128" width="14" height="44" rx="3" fill="url(#brass)"/>
-    <rect x="102" y="128" width="14" height="44" rx="3" fill="url(#brass)"/>
-    <circle cx="96" cy="134" r="11" fill="#7a5418" stroke="#e6c27a" stroke-width="3"/>
-    <!-- Contact post -->
-    <rect x="150" y="142" width="10" height="30" rx="2" fill="url(#brass)"/>
-    <!-- Lever arm, tilting slightly down to the knob -->
-    <path d="M58 124 L200 140 L200 150 L58 134 Z" fill="url(#brass)" stroke="#5a3a10" stroke-width="1.5" filter="url(#grain)"/>
-    <!-- Spring adjusting screw at the back -->
-    <rect x="58" y="112" width="8" height="26" rx="2" fill="#a77a2c"/>
-    <circle cx="62" cy="110" r="7" fill="#c79a52" stroke="#5a3a10" stroke-width="2"/>
-    <!-- Knob stem and mushroom knob -->
-    <rect x="190" y="132" width="10" height="14" fill="#2a1d14"/>
-    <ellipse cx="195" cy="122" rx="25" ry="15" fill="url(#knob)"/>
-    <ellipse cx="195" cy="132" rx="25" ry="7" fill="#120b07"/>
-    <ellipse cx="188" cy="116" rx="9" ry="4" fill="#8a7464" opacity="0.5"/>
+  <!-- Back adjusting screw with knurled cap -->
+  <rect x="58" y="120" width="8" height="34" fill="url(#brassSide)"/>
+  <rect x="53" y="108" width="18" height="14" rx="2" fill="url(#knurl)" stroke="#5e3d0c" stroke-width="1"/>
+  <ellipse cx="62" cy="108" rx="9" ry="3" fill="#f3d27a"/>
+
+  <!-- Trunnion bridge (pivot frame) -->
+  <path d="M84 156 L84 112 L120 116 L120 160" fill="none" stroke="url(#brassSide)" stroke-width="10" stroke-linejoin="round"/>
+  <rect x="78" y="106" width="48" height="10" rx="2" fill="url(#brass)" stroke="#5e3d0c" stroke-width="1"/>
+  <!-- Pivot screws -->
+  <circle cx="84" cy="128" r="6" fill="#f3d27a" stroke="#5e3d0c" stroke-width="1.5"/>
+  <circle cx="120" cy="132" r="6" fill="#f3d27a" stroke="#5e3d0c" stroke-width="1.5"/>
+
+  <!-- Contact post with knurled cap under the lever -->
+  <rect x="150" y="140" width="8" height="30" fill="url(#brassSide)"/>
+  <rect x="145" y="132" width="18" height="10" rx="2" fill="url(#knurl)" stroke="#5e3d0c" stroke-width="1"/>
+
+  <!-- Lever arm: from the back screw, through the pivot, rising to the knob -->
+  <path d="M54 126 L150 132 Q174 134 194 115 L203 106 L212 114 L203 123 Q180 148 150 148 L54 140 Z"
+        fill="url(#brass)" stroke="#5e3d0c" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M60 130 L150 135 Q174 137 194 120" fill="none" stroke="#fff6cf" stroke-width="2" opacity="0.8"/>
+
+  <!-- Knob stem and ebony mushroom knob -->
+  <rect x="202" y="90" width="9" height="26" rx="2" fill="url(#brassSide)" transform="rotate(12 206 104)"/>
+  <ellipse cx="214" cy="88" rx="30" ry="14" fill="url(#ebony)"/>
+  <path d="M184 88 Q184 102 214 102 Q244 102 244 88 Q244 96 214 97 Q184 96 184 88 Z" fill="#050404"/>
+  <ellipse cx="204" cy="81" rx="11" ry="4" fill="#a59c97" opacity="0.55"/>
   </g>
 </svg>
