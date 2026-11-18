@@ -1,0 +1,114 @@
+[
+  {
+    "code": "QTH",
+    "meaning": "What is your location / station position?",
+    "answer": "My location / station position is...",
+    "category": "Station",
+    "morse": "--.- - ....",
+    "usage": "Crucial exchange in every amateur contact to report geographical location or Maidenhead grid square."
+  },
+  {
+    "code": "QRM",
+    "meaning": "Are you troubled by man-made interference?",
+    "answer": "I am troubled by interference from other transmitting stations.",
+    "category": "Interference",
+    "morse": "--.- .-. --",
+    "usage": "Used when adjacent stations or local electrical noise makes reception difficult."
+  },
+  {
+    "code": "QRN",
+    "meaning": "Are you troubled by static or atmospheric noise?",
+    "answer": "I am troubled by natural static / atmospheric lightning crashes.",
+    "category": "Noise",
+    "morse": "--.- .-. -.",
+    "usage": "Common during summer storms or on low-frequency bands (160m / 80m)."
+  },
+  {
+    "code": "QRS",
+    "meaning": "Shall I transmit slower?",
+    "answer": "Please transmit slower (at ... words per minute).",
+    "category": "Speed",
+    "morse": "--.- .-. ...",
+    "usage": "Courteous request when copying is difficult due to speed."
+  },
+  {
+    "code": "QRQ",
+    "meaning": "Shall I transmit faster?",
+    "answer": "Please transmit faster (at ... words per minute).",
+    "category": "Speed",
+    "morse": "--.- .-. --.-",
+    "usage": "Sent when both operators wish to increase sending speed."
+  },
+  {
+    "code": "QRT",
+    "meaning": "Shall I stop sending / close down?",
+    "answer": "Stop transmitting / I am closing down my station.",
+    "category": "Operating",
+    "morse": "--.- .-. -",
+    "usage": "Indicates the operator is signing off and turning off equipment."
+  },
+  {
+    "code": "QRZ",
+    "meaning": "Who is calling me?",
+    "answer": "You are being called by... (or: Who is calling me?)",
+    "category": "Operating",
+    "morse": "--.- .-. --..",
+    "usage": "Transmitted when a signal is heard but the call-sign was missed."
+  },
+  {
+    "code": "QSL",
+    "meaning": "Can you acknowledge receipt of my transmission?",
+    "answer": "I acknowledge receipt of your transmission (100% copy).",
+    "category": "Confirmation",
+    "morse": "--.- ... .-..",
+    "usage": "Also refers to physical or electronic confirmation cards documenting contacts."
+  },
+  {
+    "code": "QSO",
+    "meaning": "Can you communicate with ... directly?",
+    "answer": "I am in two-way contact with ... / A two-way radio conversation.",
+    "category": "Contact",
+    "morse": "--.- ... ---",
+    "usage": "The standard term for a completed two-way contact between operators."
+  },
+  {
+    "code": "QRP",
+    "meaning": "Shall I decrease transmitter power?",
+    "answer": "Decrease power / I am operating with low power (5 watts or less).",
+    "category": "Power",
+    "morse": "--.- .-. .--.",
+    "usage": "Low-power operating enthusiast discipline."
+  },
+  {
+    "code": "QSY",
+    "meaning": "Shall I change frequency?",
+    "answer": "Change transmitting frequency to ... kHz.",
+    "category": "Frequency",
+    "morse": "--.- ... -.--",
+    "usage": "Used to move off a calling channel to a working frequency."
+  },
+  {
+    "code": "QRV",
+    "meaning": "Are you ready to copy / transmit?",
+    "answer": "I am ready.",
+    "category": "Operating",
+    "morse": "--.- .-. ...-",
+    "usage": "Sent before commencing formal telegram or traffic handling."
+  },
+  {
+    "code": "QSB",
+    "meaning": "Is my signal strength fading?",
+    "answer": "Your signal is fading (ionospheric variations).",
+    "category": "Signal",
+    "morse": "--.- ... -...",
+    "usage": "Reports ionospheric propagation fading on high frequency bands."
+  },
+  {
+    "code": "QSK",
+    "meaning": "Can you hear between your signals (full break-in)?",
+    "answer": "I can hear you between my signals (full break-in enabled).",
+    "category": "Keying",
+    "morse": "--.- ... -.-",
+    "usage": "Enables conversational interjections without waiting for final sign-off."
+  }
+]

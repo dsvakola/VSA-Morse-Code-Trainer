@@ -1,16 +1,22 @@
 <p align="center">
-  <img src="assets/brand/app-icon.svg" width="128" height="128" alt="VSA Morse Code Trainer icon: a brass straight telegraph key on a mahogany base, set in a brass badge">
+  <img src="assets/brand/app-icon-badge.svg" width="128" height="128" alt="VSA Morse Code Trainer icon: a brass straight telegraph key on a mahogany base, set in a brass badge">
 </p>
 
 # VSA Morse Code Trainer
 
 > **Learn Morse Code — by ear, by key, by heart.**
 
-A free, offline Windows desktop application that teaches the full details of Morse code — not just a translator. A student can start with zero knowledge and finish able to copy Morse by ear and send it accurately by key. A teacher can follow a whole class offline.
+A free, open-source, offline Windows desktop application that teaches Morse code (CW) completely, not just a translator. A student can start with zero knowledge and finish able to copy Morse by ear and send it cleanly with a key. A teacher can follow a whole class offline.
+
+It was written by a licensed radio amateur as a gift to the ham community: to help new operators learn the code and to point them to the clubs and classes that keep CW alive on the air.
 
 The look and feel follow an old telegraph office: a polished brass straight key on a mahogany base, aged telegram paper and brass nameplates.
 
-> **Status:** under active development (version 0.5.1). The first public release will be announced on the Vidyasagar Academy website.
+> **Status:** version 0.7.0, nearing its first public release. Free for everyone, with no ads and no accounts.
+
+<p align="center">
+  <img src="docs/screenshots/home.png" width="800" alt="Home screen">
+</p>
 
 ---
 
@@ -34,7 +40,8 @@ The look and feel follow an old telegraph office: a polished brass straight key 
 - **Translator** — text to Morse and back as you type, audio playback, loop, screen-flash signal lamp and WAV download.
 - **Audio file decoder** — open a WAV recording of Morse and decode it on your own computer.
 - **Binary translator** — text to 8-bit binary and back, for comparing two classic encodings.
-- **Teacher dashboard** — offline class roster, student progress and CSV reports.
+- **Teacher's desk** — offline class roster, CSV export and printable practice sheets with an answer key.
+- **Ham community** — hand-picked links to CW classes, practice sites, clubs, national societies and forums, opened in your browser.
 - **Offline and private** — no internet connection, no accounts, no tracking. See the [Privacy Policy](privacy-policy.md).
 
 ---
@@ -69,14 +76,36 @@ For development: `pnpm tauri dev`. Tests: `pnpm test` and `cargo test`.
 
 ---
 
+## Screenshots
+
+| Sending key                                      | Koch ear trainer                                 |
+| ------------------------------------------------ | ------------------------------------------------ |
+| ![Sending key](docs/screenshots/sending-key.png) | ![Koch ear trainer](docs/screenshots/koch.png)   |
+| **Quiz certificate**                             | **Ham community**                                |
+| ![Certificate](docs/screenshots/certificate.png) | ![Ham community](docs/screenshots/community.png) |
+
+---
+
+## Ham community
+
+Learning Morse is more fun with other operators. Good places to start:
+
+- **CW Academy (CWops):** <https://cwops.org/cw-academy/>
+- **Long Island CW Club:** <https://longislandcwclub.org/>
+- **LCWO, Learn CW Online:** <https://lcwo.net/>
+- **Morse Code Ninja:** <https://morsecode.ninja/>
+- **SKCC, Straight Key Century Club:** <https://www.skccgroup.com/>
+- **IARU member societies (find your national society):** <https://www.iaru.org/about-us/organisation-and-history/member-societies/>
+- **QRZ.com forums:** <https://forums.qrz.com/>
+
 ## Related resources
 
-- **Morse Code Translator & Trainer by Mudassir Hussain:** [https://www.morsecodetranslater.com/](https://www.morsecodetranslater.com/)
-- **Vidyasagar Academy Arduino Morse project:** [https://vsa.edu.in/convert-text-into-morse-code-with-beeps-back-into-text-with-arduino/](https://vsa.edu.in/convert-text-into-morse-code-with-beeps-back-into-text-with-arduino/)
-- **ITU-R M.1677 Recommendation:** [https://www.itu.int/rec/R-REC-M.1677/en](https://www.itu.int/rec/R-REC-M.1677/en)
-- **ARRL (American Radio Relay League):** [https://www.arrl.org/](https://www.arrl.org/)
-- **CWops CW Academy:** [https://cwops.org/cw-academy/](https://cwops.org/cw-academy/)
-- **LCWO (Learn CW Online):** [https://lcwo.net/](https://lcwo.net/)
+- **Morse Code Translator & Trainer by Mudassir Hussain:** <https://www.morsecodetranslater.com/>
+- **ITU-R M.1677 Recommendation:** <https://www.itu.int/rec/R-REC-M.1677/en>
+
+## Contributing
+
+Issues and pull requests are welcome, especially from CW instructors and clubs: new drills, word lists, translations and teaching methods. Please open an issue first to discuss larger changes.
 
 ---
 

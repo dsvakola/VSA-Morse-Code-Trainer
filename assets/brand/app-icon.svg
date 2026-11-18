@@ -34,20 +34,9 @@
     <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
       <feGaussianBlur stdDeviation="5"/>
     </filter>
-      <radialGradient id="badge" cx="0.5" cy="0.4" r="0.65">
-      <stop offset="0" stop-color="#3b2416"/>
-      <stop offset="1" stop-color="#170c06"/>
-    </radialGradient>
-    <linearGradient id="rimB" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fff1b8"/>
-      <stop offset="0.4" stop-color="#d4a640"/>
-      <stop offset="1" stop-color="#6b4710"/>
-    </linearGradient>
-</defs>
+  </defs>
 
-  <circle cx="128" cy="128" r="122" fill="url(#rimB)"/>
-  <circle cx="128" cy="128" r="111" fill="url(#badge)"/>
-  <g transform="translate(128 136) scale(0.86) translate(-129 -146)">
+  <g transform="translate(128 128) scale(1.07) translate(-129 -146)">
   <!-- Soft floor shadow -->
   <ellipse cx="128" cy="214" rx="112" ry="14" fill="#000" opacity="0.35" filter="url(#shadow)"/>
 
@@ -85,6 +74,7 @@
   <rect x="145" y="132" width="18" height="10" rx="2" fill="url(#knurl)" stroke="#5e3d0c" stroke-width="1"/>
 
   <!-- Lever arm: from the back screw, through the pivot, rising to the knob -->
+  <g id="key-lever" class="key-lever">
   <path d="M54 126 L150 132 Q174 134 194 115 L203 106 L212 114 L203 123 Q180 148 150 148 L54 140 Z"
         fill="url(#brass)" stroke="#5e3d0c" stroke-width="1.5" stroke-linejoin="round"/>
   <path d="M60 130 L150 135 Q174 137 194 120" fill="none" stroke="#fff6cf" stroke-width="2" opacity="0.8"/>
@@ -94,5 +84,6 @@
   <ellipse cx="214" cy="88" rx="30" ry="14" fill="url(#ebony)"/>
   <path d="M184 88 Q184 102 214 102 Q244 102 244 88 Q244 96 214 97 Q184 96 184 88 Z" fill="#050404"/>
   <ellipse cx="204" cy="81" rx="11" ry="4" fill="#a59c97" opacity="0.55"/>
+  </g>
   </g>
 </svg>

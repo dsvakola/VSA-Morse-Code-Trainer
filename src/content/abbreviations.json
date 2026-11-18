@@ -1,0 +1,254 @@
+[
+  {
+    "abbr": "CQ",
+    "meaning": "General call to all stations",
+    "morse": "-.-. --.-",
+    "category": "Calling",
+    "note": "Derived from 'Seek you' — invites any station hearing the signal to respond."
+  },
+  {
+    "abbr": "DE",
+    "meaning": "From / This is",
+    "morse": "-.. .",
+    "category": "Calling",
+    "note": "Precedes the transmitting station's call-sign (e.g. 'CQ DE K1ABC')."
+  },
+  {
+    "abbr": "K",
+    "meaning": "Go ahead (Invitation to transmit)",
+    "morse": "-.-",
+    "category": "Turn",
+    "note": "Invites any listening station to respond."
+  },
+  {
+    "abbr": "KN",
+    "meaning": "Go ahead, named station only",
+    "morse": "-.--.",
+    "category": "Turn",
+    "note": "Sent as a prosign: strictly warns third-party stations not to break in."
+  },
+  {
+    "abbr": "R",
+    "meaning": "Received / Roger (All copied 100%)",
+    "morse": ".-.",
+    "category": "Acknowledgment",
+    "note": "Indicates the preceding transmission was copied completely without error."
+  },
+  {
+    "abbr": "73",
+    "meaning": "Best regards",
+    "morse": "--... ...--",
+    "category": "Social",
+    "note": "The universal friendly fraternal greeting of amateur radio operators."
+  },
+  {
+    "abbr": "88",
+    "meaning": "Love and kisses",
+    "morse": "---.. ---..",
+    "category": "Social",
+    "note": "Warm personal greeting traditionally exchanged between family or spouses."
+  },
+  {
+    "abbr": "TU",
+    "meaning": "Thank you",
+    "morse": "- ..-",
+    "category": "Social",
+    "note": "Rapid operational thank you sent during contests or quick exchanges."
+  },
+  {
+    "abbr": "GM",
+    "meaning": "Good morning",
+    "morse": "--. --",
+    "category": "Greeting",
+    "note": "Time-of-day greeting."
+  },
+  {
+    "abbr": "GA",
+    "meaning": "Good afternoon / Go ahead",
+    "morse": "--. .-",
+    "category": "Greeting",
+    "note": "Time-of-day greeting or operational invitation."
+  },
+  {
+    "abbr": "GE",
+    "meaning": "Good evening",
+    "morse": "--. .",
+    "category": "Greeting",
+    "note": "Time-of-day greeting."
+  },
+  {
+    "abbr": "ES",
+    "meaning": "And ('&')",
+    "morse": ". ...",
+    "category": "General",
+    "note": "Carried over from American Morse symbol for '&' (& = . ...)."
+  },
+  {
+    "abbr": "OM",
+    "meaning": "Old Man (Male operator)",
+    "morse": "--- --",
+    "category": "Operator",
+    "note": "Affectionate historic term for any male amateur operator, regardless of age."
+  },
+  {
+    "abbr": "YL",
+    "meaning": "Young Lady (Female operator)",
+    "morse": "-.-- .-..",
+    "category": "Operator",
+    "note": "Affectionate historic term for any female amateur operator."
+  },
+  {
+    "abbr": "FB",
+    "meaning": "Fine Business (Excellent / Great)",
+    "morse": "..-. -...",
+    "category": "Approval",
+    "note": "Telegraphic slang praising signal quality, equipment, or operating style."
+  },
+  {
+    "abbr": "PSE",
+    "meaning": "Please",
+    "morse": ".--. ... .",
+    "category": "General",
+    "note": "Polite operator request (e.g. 'PSE QSL')."
+  },
+  {
+    "abbr": "UR",
+    "meaning": "Your / You are",
+    "morse": "..- .-.",
+    "category": "General",
+    "note": "Common contraction in telegraphy exchanges (e.g. 'UR RST IS 599')."
+  },
+  {
+    "abbr": "WX",
+    "meaning": "Weather",
+    "morse": ".-- -..-",
+    "category": "Report",
+    "note": "Reports local weather conditions ('WX IS SUNNY 28C')."
+  },
+  {
+    "abbr": "RST",
+    "meaning": "Readability (1-5), Strength (1-9), Tone (1-9)",
+    "morse": ".-. ... -",
+    "category": "Report",
+    "note": "Standard quantitative signal report. '599' represents a perfect copy signal."
+  },
+  {
+    "abbr": "AGN",
+    "meaning": "Again",
+    "morse": ".- --. -.",
+    "category": "Operating",
+    "note": "Request to re-send missed text ('PSE AGN')."
+  },
+  {
+    "abbr": "ANT",
+    "meaning": "Antenna / Aerial",
+    "morse": ".- -. -",
+    "category": "Station",
+    "note": "Description of radiating element (dipole, vertical, yagi)."
+  },
+  {
+    "abbr": "BK",
+    "meaning": "Break / Break-in",
+    "morse": "-... -.-",
+    "category": "Turn",
+    "note": "Quick interruption to yield the frequency without full station IDs."
+  },
+  {
+    "abbr": "CFM",
+    "meaning": "Confirm",
+    "morse": "-.-. ..-. --",
+    "category": "Acknowledgment",
+    "note": "Verification of transmitted information."
+  },
+  {
+    "abbr": "CL",
+    "meaning": "Closing station (Going off air)",
+    "morse": "-.-. .-..",
+    "category": "Operating",
+    "note": "Final sign-off indicating the station is shutting down."
+  },
+  {
+    "abbr": "CPY",
+    "meaning": "Copy",
+    "morse": "-.-. .--. -.--",
+    "category": "Operating",
+    "note": "Pertaining to reception ('HW CPY?' = How do you copy me?)."
+  },
+  {
+    "abbr": "FER",
+    "meaning": "For",
+    "morse": "..-. . .-.",
+    "category": "General",
+    "note": "Contraction used in conversational Morse."
+  },
+  {
+    "abbr": "HW",
+    "meaning": "How / How copy?",
+    "morse": ".... .--",
+    "category": "Operating",
+    "note": "Inquiry regarding signal legibility."
+  },
+  {
+    "abbr": "MSG",
+    "meaning": "Message / Telegram",
+    "morse": "-- ... --.",
+    "category": "Traffic",
+    "note": "Formal radiogram or message transmission."
+  },
+  {
+    "abbr": "NAME",
+    "meaning": "Operator's personal name",
+    "morse": "-. .- -- .",
+    "category": "Station",
+    "note": "Introduces operator handle (e.g. 'NAME IS JOHN')."
+  },
+  {
+    "abbr": "NIL",
+    "meaning": "Nothing / No traffic",
+    "morse": "-. .. .-..",
+    "category": "Traffic",
+    "note": "Indicates no further messages to transmit."
+  },
+  {
+    "abbr": "OP",
+    "meaning": "Operator",
+    "morse": "--- .--.",
+    "category": "Operator",
+    "note": "Person manipulating the key."
+  },
+  {
+    "abbr": "RIG",
+    "meaning": "Transmitter / Transceiver equipment",
+    "morse": ".-. .. --.",
+    "category": "Station",
+    "note": "Description of transmitting apparatus."
+  },
+  {
+    "abbr": "SIG",
+    "meaning": "Signal",
+    "morse": "... .. --.",
+    "category": "Report",
+    "note": "Reference to radio transmission characteristics."
+  },
+  {
+    "abbr": "SRI",
+    "meaning": "Sorry",
+    "morse": "... .-. ..",
+    "category": "General",
+    "note": "Polite apology for sending slips or interference."
+  },
+  {
+    "abbr": "TNX",
+    "meaning": "Thanks",
+    "morse": "- -. -..-",
+    "category": "Social",
+    "note": "Alternative informal thank you."
+  },
+  {
+    "abbr": "VY",
+    "meaning": "Very",
+    "morse": "...- -.--",
+    "category": "General",
+    "note": "Intensifier (e.g. 'VY FB OM')."
+  }
+]

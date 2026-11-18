@@ -5,12 +5,58 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.7.0] - 2026-11-18
+
+### Added
+
+- **Ham Community** room: hand-picked classes, practice sites, clubs, national societies and forums (CW Academy, Long Island CW Club, LCWO, Morse Code Ninja, Morse Code World, SKCC, CWops, IARU, ARRL, RSGB, QRZ.com forums, eHam.net, r/amateurradio, r/morsecode). Links open in your web browser; the app stays offline.
+
+### Changed
+
+- About: the logo now has a round white border, and the website button reads "More Software by VSA" and opens the VSA software collection on GitHub.
+- The app may open only the listed community sites, the VSA software page and the VSA e-mail address.
+
+## [0.6.2] - 2026-11-18
+
+### Changed
+
+- International examples throughout: names such as John Doe, cities such as London and Tokyo, and the example call-sign K1ABC. Drill call-signs come from many countries.
+- The amateur radio licensing chapter and its review question now speak to learners in every country.
+
+## [0.6.1] - 2026-11-18
+
+### Changed
+
+- The app now presents itself only as **VSA Morse Code Trainer**, ready for a worldwide audience: the academy name was removed from the Home banner, the sidebar (which now shows the version), certificates and the printed chart. The developers' credit remains in About.
+
+## [0.6.0] - 2026-11-18
+
+### Added
+
+- **Guided Lessons:** 22 lessons, two new characters at a time in Koch order, then punctuation, prosigns, common words and on-air sentences. Each lesson opens the next at the pass mark set in Settings.
+- **Koch Ear Trainer:** five-letter groups at full character speed, a mastery grid, and automatic unlocking; weak characters come up more often.
+- **Listening Drills:** random groups, common words, call-signs, numbers and a full radio contact, with optional background noise.
+- **Sending Key:** straight key (keyboard or mouse on the brass key) and iambic paddles, modes A and B, with live decoding and a score for accuracy and rhythm.
+- **Quizzes & Certificate:** eight levels from 4 letters up to the full alphabet A–Z, 15 questions in three styles, and a printable certificate.
+- **Audio Decoder:** opens a WAV recording and writes out the message; the tone search and timing run in the Rust back end.
+- **Binary Translator:** text to 8-bit binary (UTF-8) and back, copy and save as .txt.
+- **Teacher's Desk:** class roster kept on this computer, CSV export, and printable practice sheets with an answer key.
+- **Help** page with a guide to every room, keyboard shortcuts and common questions.
+- Backup and restore of settings, progress and roster in one file.
+
+### Changed
+
+- **App icon:** a brass straight telegraph key on a polished mahogany base, set in a round brass badge. The whole interface now follows the same brass-and-mahogany look.
+- **New stack:** the interface is plain TypeScript with no framework; React, Tailwind, Zustand, i18next, lucide and jsPDF were removed. Saving, WAV export and audio decoding run in Rust.
+- Data is stored as JSON in the app data folder with atomic writes and a backup copy.
+- Tighter security: the window may only open the Vidyasagar Academy website and e-mail, file access goes through the system dialogs, and a strict content security policy is set.
+
 ## [0.5.1] - 2026-11-17
 
 ### Changed
 
 - **New name:** the application is now **VSA Morse Code Trainer** (window title, installer, About, README and all documents). App identifier is now `in.edu.vsa.morse-code-trainer`.
-- **New application icon:** an old straight telegraph key in tarnished brass on a rusted iron plate, with "VSA" punched above it in Morse (`assets/brand/app-icon.svg`), plus a simplified variant for 16–32 px. The `.ico` now carries 16, 24, 32, 48, 64, 128 and 256 px images.
+- **New application icon** with a simplified variant for 16–32 px. The `.ico` carries 16, 24, 32, 48, 64, 128 and 256 px images.
 - **Single version source:** `src-tauri/tauri.conf.json`; the About page reads it from the desktop shell.
 - **Windows packaging:** NSIS installer only; release profile tuned for size (`opt-level = "s"`).
 - **One-click build:** `build.bat` installs with pnpm, builds, and places the portable EXE and the installer in the `Release` folder.

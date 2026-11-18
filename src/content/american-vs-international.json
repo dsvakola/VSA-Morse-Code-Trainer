@@ -1,0 +1,89 @@
+{
+  "title": "American Railroad Morse vs. International Morse (ITU-R M.1677)",
+  "overview": "Samuel Morse and Alfred Vail originally invented the Morse code system in the 1840s for landline telegraphs equipped with sounders. When telegraph cables and wireless radio expanded across Europe and the Atlantic, the code was overhauled in 1851 at the Dresden conference and standardized in Paris in 1865 by the International Telegraph Union (now ITU). American Morse remained in use on North American commercial wire telegraphs and railroads until the mid-20th century, while International Morse became the global standard for radio, maritime, and amateur communications.",
+  "keyDifferences": [
+    {
+      "aspect": "Spacing within Characters",
+      "americanMorse": "Contained internal spaces inside certain letters (C, O, R, Y, Z, &). A pause inside a letter changed its meaning (e.g., 'C' was dot-dot space dot).",
+      "internationalMorse": "Strictly continuous. Intra-character gaps are always exactly 1 unit. No character contains internal spacing."
+    },
+    {
+      "aspect": "Dash Durations",
+      "americanMorse": "Featured multiple dash lengths: standard dash (3 units), long dash for letter 'L' (5 units), and extra-long dash for numeral '0' (7 units).",
+      "internationalMorse": "All dashes are strictly 3 units long. Numerals are uniform 5-element sequences."
+    },
+    {
+      "aspect": "Noise Immunity in Radio",
+      "americanMorse": "Internal pauses were easily obliterated by radio atmospheric static (QRN) and signal fading (QSB).",
+      "internationalMorse": "Far superior noise immunity over wireless radio waves and submarine cables."
+    }
+  ],
+  "comparisonTable": [
+    {
+      "char": "C",
+      "american": ".. .",
+      "international": "-.-.",
+      "note": "American C had an internal pause between two dots and one dot."
+    },
+    {
+      "char": "F",
+      "american": ".-.",
+      "international": "..-.",
+      "note": "American F is identical to International R!"
+    },
+    {
+      "char": "J",
+      "american": "-.-.",
+      "international": ".---",
+      "note": "American J is identical to International C!"
+    },
+    {
+      "char": "L",
+      "american": "----- (long dash)",
+      "international": ".-..",
+      "note": "American L was a single 5-unit extended dash."
+    },
+    {
+      "char": "O",
+      "american": ". .",
+      "international": "---",
+      "note": "American O was two dots with an internal pause."
+    },
+    {
+      "char": "P",
+      "american": ".....",
+      "international": ".--.",
+      "note": "American P was five rapid dots (identical to International 5!)."
+    },
+    {
+      "char": "Q",
+      "american": "..-.",
+      "international": "--.-",
+      "note": "American Q was two dots, pause, dot-dash."
+    },
+    {
+      "char": "R",
+      "american": ". ..",
+      "international": ".-.",
+      "note": "American R was one dot, pause, two dots."
+    },
+    {
+      "char": "Y",
+      "american": ".. ..",
+      "international": "-.--",
+      "note": "American Y was two dots, pause, two dots."
+    },
+    {
+      "char": "Z",
+      "american": "... .",
+      "international": "--..",
+      "note": "American Z was three dots, pause, one dot."
+    },
+    {
+      "char": "0",
+      "american": "------- (extra long dash)",
+      "international": "-----",
+      "note": "American 0 was a massive 7-unit sustained dash."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Least-privilege permissions for the main window",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "dialog:allow-open",
+    "dialog:allow-save",
+    "dialog:allow-message",
+    "dialog:allow-ask",
+    {
+      "identifier": "opener:allow-open-url",
+      "allow": [
+        {
+          "url": "https://vsa.edu.in/*"
+        },
+        {
+          "url": "mailto:softinquiry@vsa.edu.in"
+        },
+        {
+          "url": "https://github.com/dsvakola/*"
+        },
+        {
+          "url": "https://cwops.org/*"
+        },
+        {
+          "url": "https://longislandcwclub.org/*"
+        },
+        {
+          "url": "https://www.arrl.org/*"
+        },
+        {
+          "url": "https://lcwo.net/*"
+        },
+        {
+          "url": "https://morsecode.ninja/*"
+        },
+        {
+          "url": "https://morsecode.world/*"
+        },
+        {
+          "url": "https://www.skccgroup.com/*"
+        },
+        {
+          "url": "https://www.iaru.org/*"
+        },
+        {
+          "url": "https://rsgb.org/*"
+        },
+        {
+          "url": "https://forums.qrz.com/*"
+        },
+        {
+          "url": "https://www.eham.net/*"
+        },
+        {
+          "url": "https://www.reddit.com/r/amateurradio/*"
+        },
+        {
+          "url": "https://www.reddit.com/r/morsecode/*"
+        }
+      ]
+    }
+  ]
+}

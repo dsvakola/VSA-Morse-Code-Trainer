@@ -17,7 +17,7 @@ The app saves your settings (speed, tone, volume and similar), your learning pro
 - It does not collect, sell or share personal information.
 - It does not use analytics, telemetry, advertising or tracking of any kind.
 - It does not need an account or a sign-in.
-- It does not connect to the internet. Links to the Vidyasagar Academy website or e-mail address open only when you click them, in your own browser or mail program.
+- It does not connect to the internet. Links in the About and Ham Community pages (the VSA software page, the VSA e-mail address and a fixed list of amateur radio clubs, practice sites and forums) open only when you click them, in your own browser or mail program. What those sites do is governed by their own privacy policies.
 
 ## Files you choose to open or save
 
