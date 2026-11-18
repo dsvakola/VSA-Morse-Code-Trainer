@@ -163,8 +163,29 @@ export default function communityPage(): Page {
     ),
     h(
       "div",
-      { class: "feedback ok" },
-      "73! Good luck on the air. The trainer is free and open source: share it with anyone learning the code.",
+      { class: "feedback ok stack" },
+      h(
+        "p",
+        null,
+        "73! Good luck on the air. The trainer is free and open source: share it with anyone learning the code.",
+      ),
+      h(
+        "p",
+        null,
+        "Your suggestions and feedback are always welcome to help improve this software. Write to ",
+        h(
+          "a",
+          {
+            href: "mailto:softinquiry@vsa.edu.in",
+            onclick: (e: Event) => {
+              e.preventDefault();
+              void open("mailto:softinquiry@vsa.edu.in");
+            },
+          },
+          "softinquiry@vsa.edu.in",
+        ),
+        ".",
+      ),
     ),
   );
   return { el };

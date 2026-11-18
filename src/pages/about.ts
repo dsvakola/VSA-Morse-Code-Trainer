@@ -11,7 +11,6 @@ import { icon } from "../ui/icons";
 import { telegraphKey } from "../ui/telegraph-key";
 
 const RESOURCES = [
-  ["Morse Code Translator & Trainer by Mudassir Hussain", "www.morsecodetranslater.com"],
   [
     "Vidyasagar Academy Arduino Morse project",
     "vsa.edu.in/convert-text-into-morse-code-with-beeps-back-into-text-with-arduino/",

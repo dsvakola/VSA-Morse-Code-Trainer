@@ -1281,3 +1281,12 @@ summary {
   background: transparent;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
 }
+
+.feedback p {
+  margin: 0;
+}
+
+.feedback a {
+  color: inherit;
+  font-weight: 600;
+}

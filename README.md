@@ -100,7 +100,6 @@ Learning Morse is more fun with other operators. Good places to start:
 
 ## Related resources
 
-- **Morse Code Translator & Trainer by Mudassir Hussain:** <https://www.morsecodetranslater.com/>
 - **ITU-R M.1677 Recommendation:** <https://www.itu.int/rec/R-REC-M.1677/en>
 
 ## Contributing
