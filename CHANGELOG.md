@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.7.2] - 2026-11-18
+
+### Added
+
+- Microsoft Store package: `build.bat` now also makes an MSIX package (`Release\VSA Morse Code Trainer_<version>_x64.msix`) with the Store identity, crisp logos at 100%, 200% and 400% scaling, and taskbar icons from 16 to 256 px. Microsoft signs it on upload. Needs the Windows SDK.
+
 ## [0.7.1] - 2026-11-18
 
 ### Changed

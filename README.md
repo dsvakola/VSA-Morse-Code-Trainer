@@ -70,7 +70,7 @@ cd VSA-Morse-Code-Trainer
 build.bat
 ```
 
-`build.bat` runs `pnpm install` and `pnpm tauri build`, then places the portable EXE and the installer in the `Release` folder.
+`build.bat` runs `pnpm install` and `pnpm tauri build`, then places the portable EXE, the installer and the Microsoft Store package (MSIX, when the Windows SDK is installed) in the `Release` folder.
 
 For development: `pnpm tauri dev`. Tests: `pnpm test` and `cargo test`.
 
