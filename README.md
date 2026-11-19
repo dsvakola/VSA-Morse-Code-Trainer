@@ -12,7 +12,7 @@ It was written by a licensed radio amateur as a gift to the ham community: to he
 
 The look and feel follow an old telegraph office: a polished brass straight key on a mahogany base, aged telegram paper and brass nameplates.
 
-> **Status:** version 0.7.0, nearing its first public release. Free for everyone, with no ads and no accounts.
+> **Get it free from the [Microsoft Store](https://apps.microsoft.com/detail/9nbp8jk9jp5m).** Version 0.7.2. Free for everyone, with no ads and no accounts.
 
 <p align="center">
   <img src="docs/screenshots/home.png" width="800" alt="Home screen">
